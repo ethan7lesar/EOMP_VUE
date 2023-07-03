@@ -270,7 +270,8 @@ ul{
   width: 50%;
   text-align: center;
   border: 0;
-  color:white
+  color:white;
+  transition: 0.2s;
 }
 
 
