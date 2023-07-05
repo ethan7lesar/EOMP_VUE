@@ -30,7 +30,7 @@ export default {
   components: { TimeLineComp, XpCardComp, SkillBarComp },
 };
 </script>
-<style>
+<style>F
 h1 {
   color: #5cb85c;
   font-size: 50px;
