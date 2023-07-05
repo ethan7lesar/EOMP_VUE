@@ -14,13 +14,13 @@
   </div>
 </template>
 
-<script>
+<script  >
 export default {
   props: ["testimonial"],
 };
 </script>
 
-<style>
+<style scoped>
 .center {
   display: flex;
   justify-content: center;
@@ -93,7 +93,7 @@ export default {
   padding: 1.5rem;
   transition: all 0.3s;
   background-color: rgba(0, 0, 0, 0.4);
-
+ font-size: 30px;
   transform: translate3d(0, -100%, 0);
   will-change: transform;
 }
