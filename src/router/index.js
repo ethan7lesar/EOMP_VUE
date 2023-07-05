@@ -21,6 +21,11 @@ const routes = [
     name: 'contact',
     component: () => import('../views/ContactView.vue')
   },
+  {
+    path: '/resume',
+    name: 'resume',
+    component: () => import('../views/ResumeView.vue')
+  }
 ]
 
 const router = createRouter({
