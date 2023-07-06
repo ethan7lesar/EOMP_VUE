@@ -4,43 +4,44 @@
       <li>
         <div class="direction-r">
           <div class="flag-wrapper">
-            <span class="flag">Freelancer</span>
-            <span class="time-wrapper"
-              ><span class="time">2013 - present</span></span
-            >
+            <span class="flag">Matric</span>
+            <span class="time-wrapper"><span class="time">2019</span></span>
           </div>
           <div class="desc">
-            My current employment. Way better than the position before!
+            <ul>
+              <li>Claremont High School</li>
+              <li>Mathematics, Physical Science</li>
+            </ul>
           </div>
         </div>
       </li>
-
       <li>
         <div class="direction-l">
           <div class="flag-wrapper">
-            <span class="flag">Apple Inc.</span>
-            <span class="time-wrapper"
-              ><span class="time">2011 - 2013</span></span
-            >
+            <span class="flag">2nd Year AppDev </span>
+            <span class="time-wrapper"><span class="time">2021</span></span>
           </div>
           <div class="desc">
-            My first employer. All the stuff I've learned and projects I've been
-            working on.
+            <ul>
+              <li>Cape Penisuala University Of Technology</li>
+              <li>Java</li>
+            </ul>
           </div>
         </div>
       </li>
-
       <li>
         <div class="direction-r">
           <div class="flag-wrapper">
-            <span class="flag">Harvard University</span>
+            <span class="flag">Web Development</span>
             <span class="time-wrapper"
-              ><span class="time">2008 - 2011</span></span
+              ><span class="time">2023 - present</span></span
             >
           </div>
           <div class="desc">
-            A description of all the lectures and courses I have taken and my
-            final degree?
+            <ul>
+              <li>Life Choices Achedemy</li>
+              <li>HTML CSS JAVASCRIPT</li>
+            </ul>
           </div>
         </div>
       </li>
@@ -61,6 +62,9 @@ section {
 
   font-size: 112.5%;
   line-height: 1.6em;
+}
+ul{
+  list-style: none;
 }
 
 .timeline {
@@ -151,7 +155,7 @@ section {
   width: 39px;
   height: 5px;
   margin-top: -10px;
-  background: green;
+  background: #5CB85C;
 
   z-index: 10;
 }
@@ -193,7 +197,7 @@ section {
 
   line-height: 1em;
   font-size: 0.66666em;
-  color: green;
+  color: #5CB85C;
   font-weight: bolder;
   vertical-align: middle;
 }
@@ -223,9 +227,9 @@ section {
   margin: 1em 0 0 0.75em;
 }
 
-/* ================ Timeline Media Queries ================ */
 
-@media screen and (max-width: 660px) {
+
+@media screen and (max-width: 700px) {
   .timeline {
     width: 100%;
     padding: 4em 0 1em 0;
@@ -245,11 +249,13 @@ section {
 
   .flag-wrapper {
     text-align: center;
+    font-size: 30px;
   }
 
   .flag {
-    background: rgb(255, 255, 255);
-    z-index: 15;
+    background: transparent;
+    z-index: 16;
+    font-size: 30px;
   }
 
   .direction-l .flag:before,
@@ -262,7 +268,7 @@ section {
     width: 12px;
     height: 12px;
     margin-left: -9px;
-    background: #fff;
+    background: black;
     border-radius: 10px;
     border: 4px solid black;
     z-index: 10;
@@ -303,10 +309,13 @@ section {
     margin: 1em 0 0 0;
     padding: 1em;
     background: rgb(245, 245, 245);
+    color: black;
+    border-radius: 10px;
+   font-size: 20px;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-
+   background-color: #5CB85C;
     z-index: 15;
   }
 
