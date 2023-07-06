@@ -36,9 +36,9 @@ iframe{
     
  }
  .btn:hover{
-    box-shadow: 5px 12px 15px 0px rgba(0, 255, 9, 0.71);
-    -webkit-box-shadow: 5px 12px 15px 0px rgba(0, 255, 9, 0.71);
-    -moz-box-shadow: 5px 12px 15px 0px rgba(0, 255, 9, 0.71);
+    box-shadow: 5px 12px 15px 0px #5CB85C;
+    -webkit-box-shadow: 5px 12px 15px 0px #5CB85C;
+    -moz-box-shadow: 5px 12px 15px 0px #5CB85C;
  }
 
 

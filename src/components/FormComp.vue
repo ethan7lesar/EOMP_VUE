@@ -1,6 +1,6 @@
 <template>
   <div class="m-2 p-3 contact mx-auto w-50">
-    <form action="https://formspree.io/f/xqkorznj" method="POST">
+    <form action="https://formspree.io/f/xaygynyv" method="POST">
       <h1 class="card p-3 text-center heading-text">Contact Us</h1>
       <div class="mb-3 text-center">
         <label class="form-label"> Full Name: </label>

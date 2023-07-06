@@ -1,5 +1,5 @@
 <template>
-  <h1>Testimonials</h1>
+  <h1>Testimonials:</h1>
   <div class="row row-cols-3 " v-if="testimonials">
     <HoverCardComp
       v-for="testimonial of testimonials"

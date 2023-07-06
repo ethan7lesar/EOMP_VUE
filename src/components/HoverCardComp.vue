@@ -30,9 +30,9 @@ export default {
   max-width: 350px;
   max-height: 350px;
   margin: 50px auto;
-  box-shadow: 10px 25px 30px 0px rgba(0, 255, 9, 0.71);
-  -webkit-box-shadow: 10px 25px 30px 0px rgba(0, 255, 9, 0.71);
-  -moz-box-shadow: 10px 25px 30px 0px rgba(0, 255, 9, 0.71);
+  box-shadow: 10px 25px 30px 0px #5CB85C;
+  -webkit-box-shadow: 10px 25px 30px 0px #5CB85C;
+  -moz-box-shadow: 10px 25px 30px 0px #5CB85C;
 }
 
 .card-with-hover {
@@ -67,7 +67,7 @@ export default {
   display: flex;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
-  border: 3px solid green;
+  border: 3px solid #5CB85C;
   transition: all 0.3s;
   transform: translate3d(0, 100%, 0);
   will-change: transform;
@@ -110,7 +110,7 @@ export default {
 
 .card-with-hover:hover > .card-caption {
   transform: translateY(0);
-  border: 5px solid green;
+  border: 5px solid #5CB85C;
   border-width: 90%;
 
   border-radius: 30px;

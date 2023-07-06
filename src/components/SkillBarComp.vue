@@ -1,7 +1,7 @@
 <template>
     <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-html5 fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-html5 fa-2xl" ></i>
         </div>
         <div class="col-10">
           <div
@@ -13,7 +13,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              class="progress-bar progress-bar-striped progress-bar-animated "
               style="width: 85%"
             ></div>
           </div>
@@ -21,7 +21,7 @@
       </div>
       <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-css3-alt fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-css3-alt fa-2xl" ></i>
         </div>
         <div class="col-10">
           <div
@@ -33,7 +33,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              class="progress-bar progress-bar-striped progress-bar-animated "
               style="width: 70%"
             ></div>
           </div>
@@ -41,7 +41,7 @@
       </div>
       <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-js fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-js fa-2xl" ></i>
         </div>
         <div class="col-10">
           <div
@@ -53,7 +53,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              class="progress-bar progress-bar-striped progress-bar-animated "
               style="width: 60%"
             ></div>
           </div>
@@ -61,7 +61,7 @@
       </div>
       <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-java fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-java fa-2xl" ></i>
         </div>
         <div class="col-10">
           <div
@@ -73,7 +73,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              class="progress-bar progress-bar-striped progress-bar-animated "
               style="width: 50%"
             ></div>
           </div>
@@ -81,7 +81,7 @@
       </div>
       <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-vuejs fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-vuejs fa-2xl" ></i>
         </div>
         <div class="col-10">
           <div
@@ -93,7 +93,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              class="progress-bar progress-bar-striped progress-bar-animated "
               style="width: 30%"
             ></div>
           </div>
@@ -101,7 +101,7 @@
       </div>
       <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-bootstrap fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-bootstrap fa-2xl" ></i>
         </div>
         <div class="col-10">
           <div
@@ -113,7 +113,7 @@
             aria-valuemax="100"
           >
             <div
-              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              class="progress-bar progress-bar-striped progress-bar-animated "
               style="width: 80%"
             ></div>
           </div>
@@ -127,6 +127,12 @@ export default{
 }
 </script>
 <style>
+.progress-bar.progress-bar-striped.progress-bar-animated{
+  background-color: #5CB85C;
+}
+.fa-brands.fa-2xl{
+  color: #5CB85C;
+}
 .row{
   --bs-gutter-x: 0;
 }

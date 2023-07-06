@@ -1,33 +1,14 @@
 <template>
-    <div class="col d-flex">
-        <img :src="experience.image" alt="image" loading="lazy">
 
-        <button type="button" class="btn btn-outline-success btn-lg btn-block rounded-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
-          Find Out More ...
-        </button>
-        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="display: none;">
-          <div class="modal-dialog bg-black">
-            <div class="modal-content bg-black">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5 text-success" id="staticBackdropLabel">
-                 {{ experience.name }}
-                </h1>
-                <button type="button" class="btn-close" data-bs-dismiss="offmodal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body text-white">
-                <ul>
-                  <li>Position: {{ experience.position}}</li>
-                  <li>Year: {{experience.year}}</li>
-                  <li>Role: {{experience.role}}</li>
-                </ul>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary border-success text-success bg-black" data-bs-dismiss="modal">
-                  Close
-                </button>
-              </div>
-            </div>
-          </div>
+      <div class="card">
+        <img :src="experience.image" :alt="Avatar" >
+        <div class="container">
+          <h4><b>{{ experience.name }}</b></h4> 
+          <ul class="text-center">
+            <li>Position: {{ experience.position}}</li>
+            <li>Year: {{experience.year}}</li>
+            <li>Role: {{experience.role}}</li>
+          </ul>
         </div>
       </div>
 </template>
@@ -39,6 +20,36 @@ export default{
 
 </script>
 <style scoped>
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 5px 5px 0 0;
+}
+.card {
+  margin: auto;
+  box-shadow: 0 4px 8px 0 #5CB85C;
+  transition: 0.3s;
+  width: 250px;
+  border-radius: 5px;
+  border: #5CB85C 2px solid;
+  background-color: black;
+  color: #5CB85C;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ul{
+  list-style: none;
+}
+
+
+
+.container {
+  padding: 2px 16px;
+}
 
 
 </style>
