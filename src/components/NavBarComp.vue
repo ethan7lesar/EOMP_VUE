@@ -129,7 +129,7 @@
     </div>
   </nav>
   <div
-    class="offcanvas offcanvas-end bg-black w-50"
+    class="offcanvas offcanvas-end bg-black "
     tabindex="-1"
     id="offcanvasRight"
     aria-labelledby="offcanvasRightLabel"
@@ -282,9 +282,10 @@ button{
   border: 0;
 }
 
-#offcanvasRight.offcanvas.offcanvas-end.bg-black.w-50{
+#offcanvasRight.offcanvas.offcanvas-end.bg-black{
   border: 10px solid #5CB85C;
   border-radius: 30px;
+  width: 50% ;
  
 }
 
@@ -292,6 +293,13 @@ button{
   color: #5CB85C;
   transition: 0.2s;
   border-bottom: 5px solid #5CB85C;
+}
+
+@media screen and (max-width: 300px) {
+
+  #offcanvasRight.offcanvas.offcanvas-end.bg-black{
+    width: 100% ;
+  }
 }
 
 

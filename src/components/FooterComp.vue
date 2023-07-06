@@ -149,4 +149,14 @@ footer {
   font-size: 35px;
 }
 
+@media screen and (max-width:300px) {
+  .social-links.pt-5.w-50.text-end{
+    display: none;
+  }
+  .copywrite-text.text-end {
+    font-size: 20px;
+  }
+  
+}
+
 </style>
