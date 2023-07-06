@@ -245,6 +245,8 @@
         <li><router-link to="/" class="nav-link">Home</router-link></li>
         <li><router-link to="/about" class="nav-link">About/</router-link></li>
         <li><router-link to="/resume" class="nav-link">Resume/</router-link></li>
+        <li><router-link to="/testimonials" class="nav-link">Testimonials/</router-link></li>
+        <li><router-link to="/projects" class="nav-link">Projects/</router-link></li>
         <li><router-link to="/contact" class="nav-link">Contact/</router-link></li>
       </ul>
     </div>
@@ -263,7 +265,7 @@ ul{
 }
 .nav-link{
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
   padding-top: 7px;
   padding-top: 7px;

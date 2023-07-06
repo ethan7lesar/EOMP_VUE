@@ -1,0 +1,90 @@
+<template>
+    <div class="row p-3">
+        <div class="col-2">
+          <i class="fa-brands fa-html5 fa-2xl" style="color: #198754"></i>
+        </div>
+        <div class="col-10">
+          <div
+            class="progress bg-dark"
+            role="progressbar"
+            aria-label="Animated striped example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 85%"
+            >85%</div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-2">
+          <i class="fa-brands fa-css3-alt fa-2xl" style="color: #198754"></i>
+        </div>
+        <div class="col-10">
+          <div
+            class="progress bg-dark"
+            role="progressbar"
+            aria-label="Animated striped example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 70%"
+            >70%</div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-2">
+          <i class="fa-brands fa-js fa-2xl" style="color: #198754"></i>
+        </div>
+        <div class="col-10">
+          <div
+            class="progress bg-dark"
+            role="progressbar"
+            aria-label="Animated striped example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 25%"
+            >25%</div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-2">
+          <i class="fa-brands fa-java fa-2xl" style="color: #198754"></i>
+        </div>
+        <div class="col-10">
+          <div
+            class="progress bg-dark"
+            role="progressbar"
+            aria-label="Animated striped example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 50%"
+            >50%</div>
+          </div>
+        </div>
+      </div>
+    
+</template>
+<script>
+export default{
+   
+}
+</script>
+<style>
+</style>
