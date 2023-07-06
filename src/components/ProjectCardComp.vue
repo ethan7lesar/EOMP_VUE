@@ -1,5 +1,5 @@
 <template>
-    <div class="card mb-5 mx-auto bg-black" style="width: 500px;">
+    <div class="card mb-5 mx-auto bg-black" >
         <iframe :src="project.liveLink" frameborder="0" ></iframe>
         <div class="card-body">
           <h5 class="card-title">{{project.name}}</h5>
@@ -9,7 +9,7 @@
       </div>
    
 </template>
-<script>
+<script >
 export default{
     props:["project"]
 }
@@ -18,6 +18,9 @@ export default{
 iframe{
     height: 400px;
     border-radius: 15px;
+}
+.card.mb-5.mx-auto.bg-black{
+    width: 500px;
 }
 .card{
     border: 5px solid #5CB85C ;
@@ -39,6 +42,15 @@ iframe{
     box-shadow: 5px 12px 15px 0px #5CB85C;
     -webkit-box-shadow: 5px 12px 15px 0px #5CB85C;
     -moz-box-shadow: 5px 12px 15px 0px #5CB85C;
+ }
+
+ @media screen and (max-width: 300px) {
+    .card.mb-5.mx-auto.bg-black{
+        width: 300px;
+    }
+    iframe{
+        width: 280px;
+    }
  }
 
 

@@ -129,4 +129,12 @@ export default {
 .card-with-hover:hover > .card-caption p {
   opacity: 1;
 }
+
+@media screen and (max-width:700){
+  .center {
+   width: 100%px;
+  }
+}
+
+
 </style>

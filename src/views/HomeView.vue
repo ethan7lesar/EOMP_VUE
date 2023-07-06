@@ -96,7 +96,7 @@
 
 <script></script>
 
-<style>
+<style scoped>
 .main-text {
   color: #c0c0c0;
   font-size: 70px;
@@ -120,6 +120,22 @@
 }
 img{
   position: relative;
+}
+
+@media screen and (max-width: 700px){
+  img{
+    display: none;
+  }
+}
+@media screen and (max-width: 300px) {
+  svg{
+    display: none;
+  }
+  .main-text {
+    
+    font-size: 30px;
+  }
+
 }
 
 </style>

@@ -152,9 +152,10 @@ footer {
 @media screen and (max-width:300px) {
   .social-links.pt-5.w-50.text-end{
     display: none;
+    padding: 0;
   }
   .copywrite-text.text-end {
-    font-size: 20px;
+    font-size: 10px;
   }
   
 }

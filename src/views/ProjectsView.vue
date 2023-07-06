@@ -26,7 +26,7 @@ export default {
   components: { ProjectCardComp },
 };
 </script>
-<style>
+<style scoped>
 .project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -37,5 +37,15 @@ export default {
 h1 {
   color: #5cb85c;
   font-size: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 }
 </style>
