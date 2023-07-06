@@ -54,7 +54,7 @@
           >
             <div
               class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-              style="width: 25%"
+              style="width: 60%"
             ></div>
           </div>
         </div>
@@ -81,7 +81,7 @@
       </div>
       <div class="row p-3">
         <div class="col-2">
-          <i class="fa-brands fa-java fa-2xl" style="color: #198754"></i>
+          <i class="fa-brands fa-vuejs fa-2xl" style="color: #198754"></i>
         </div>
         <div class="col-10">
           <div
@@ -94,7 +94,27 @@
           >
             <div
               class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-              style="width: 50%"
+              style="width: 30%"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="row p-3">
+        <div class="col-2">
+          <i class="fa-brands fa-bootstrap fa-2xl" style="color: #198754"></i>
+        </div>
+        <div class="col-10">
+          <div
+            class="progress bg-dark"
+            role="progressbar"
+            aria-label="Animated striped example"
+            aria-valuenow="80"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+              style="width: 80%"
             ></div>
           </div>
         </div>
@@ -107,4 +127,8 @@ export default{
 }
 </script>
 <style>
+.row{
+  --bs-gutter-x: 0;
+}
+
 </style>
