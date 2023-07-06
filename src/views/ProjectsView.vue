@@ -21,7 +21,7 @@ export default {
     },
   },
   mounted() {
-    this.$store.dispatch("getProjects");
+    this.$store.dispatch("fetchProjects");
   },
   components: { ProjectCardComp },
 };

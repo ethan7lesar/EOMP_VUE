@@ -25,7 +25,7 @@ export default {
         }
     },
     mounted(){
- this.$store.dispatch("getExperiences");
+ this.$store.dispatch("fetchExperiences");
     },
   components: { TimeLineComp, XpCardComp, SkillBarComp },
 };

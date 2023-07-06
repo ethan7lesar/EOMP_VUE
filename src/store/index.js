@@ -1,4 +1,5 @@
 import { createStore } from 'vuex'
+const dbUrl = "https://ethan7lesar.github.io/VueEOMPData/eompdb.json"
 
 export default createStore({
   state: {
@@ -8,33 +9,54 @@ export default createStore({
   },
 
   mutations: {
-    setExperiences: (state, experiences) => {
-      state.experiences = experiences;
+    setExperiences: (state, value) => {
+      state.experiences = value;
     },
-    setTestimonials: (state, testimonials) => {
-      state.testimonials = testimonials;
+    setTestimonials: (state, value) => {
+      state.testimonials = value;
     },
-    setProjects: (state, projects) => {
-      state.projects = projects;
+    setProjects: (state, value) => {
+      state.projects = value;
     }
 
   },
   actions: {
-    getExperiences: async (context) => {
-      fetch ("https://ethan7lesar.github.io/VueEOMPData/experience.json")
-      .then((res) => res.json())
-      .then((experiences) => context.commit("setExperiences", experiences))
+    async fetchExperiences(context) {
+      try {
+        let { experiences } = await (await fetch(dbUrl)).json();
+        if (experiences) {
+          context.commit("setExperiences", experiences);
+        } else {
+          context.commit(alert("God Did"));
+        }
+      } catch (e) {
+        alert("errror");
+      }
     },
-    getTestimonials: async (context) => {
-      fetch ("https://ethan7lesar.github.io/VueEOMPData/testimonials.json") 
-      .then((res) => res.json())
-      .then((testimonials) => context.commit("setTestimonials", testimonials))
+    async fetchTestimonials(context) {
+      try {
+        let { testimonials } = await (await fetch(dbUrl)).json();
+        if (testimonials) {
+          context.commit("setTestimonials", testimonials);
+        } else {
+          context.commit(alert("GOD DID"));
+        }
+      } catch (e) {
+        alert("errror");
+      }
     },
-    getProjects: async (context) => {
-      fetch ("https://ethan7lesar.github.io/VueEOMPData/projects.json") 
-      .then((res) => res.json())
-      .then((projects) => context.commit("setProjects", projects))
-    }
+    async fetchProjects(context) {
+      try {
+        let { projects } = await (await fetch(dbUrl)).json();
+        if (projects) {
+          context.commit("setProjects", projects);
+        } else {
+          context.commit(alert("GOD DID"));
+        }
+      } catch (e) {
+        alert("errror");
+      }
+    },
 
   }
  

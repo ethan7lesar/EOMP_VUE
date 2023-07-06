@@ -19,7 +19,7 @@ export default {
     },
   },
   mounted() {
-    this.$store.dispatch("getTestimonials");
+    this.$store.dispatch("fetchTestimonials");
   },
   components: { HoverCardComp },
 };
