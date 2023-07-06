@@ -88,4 +88,11 @@ label {
     color: #5cb85c;
 }
 
+.btn.text-center.btn-submit:hover{
+
+  background-color: #5CB85C;
+  color: black;
+  background-color: 3px solid black;
+}
+
 </style>

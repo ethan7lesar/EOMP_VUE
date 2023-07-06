@@ -66,6 +66,9 @@ section {
 ul{
   list-style: none;
 }
+li{
+  font-size: 20px;
+}
 
 .timeline {
   position: relative;
@@ -217,7 +220,8 @@ ul{
 
 .desc {
   margin: 1em 0.75em 0 0;
-
+border-bottom: #5CB85C 4px solid;
+border-radius: 10px;
   font-size: 0.77777em;
   font-style: italic;
   line-height: 1.5em;
@@ -329,7 +333,7 @@ ul{
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 300px) {
   .direction-l .desc,
   .direction-r .desc {
     margin: 1em 4em 0 4em;
