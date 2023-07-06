@@ -12,11 +12,13 @@
       are available online. As a result, I began to appreciate coding since I
       now see the internet realm in a different way.
     </p>
+    <h1>Inspiring People</h1>
+
   </div>
 </template>
 <script></script>
 <style>
-.aboutme {
+h1{
   font-size: 50px;
   color: #5cb85c;
 }
