@@ -1,5 +1,5 @@
 <template>
-  <div class="m-2 p-3 contact mx-auto w-50">
+  <div class="m-2 p-3 contact mx-auto ">
     <form action="https://formspree.io/f/xaygynyv" method="POST">
       <h1 class="card p-3 text-center heading-text">Contact Us</h1>
       <div class="mb-3 text-center">
@@ -64,6 +64,7 @@ h1 {
   border: 5px #5cb85c solid;
   border-radius: 60px;
   background-color: transparent;
+  width: 50%;
 }
 .card {
   background-color: transparent;
@@ -93,6 +94,12 @@ label {
   background-color: #5CB85C;
   color: black;
   background-color: 3px solid black;
+}
+
+@media screen and (max-width:300px) {
+  .contact{
+    width: 100%;
+  }
 }
 
 </style>

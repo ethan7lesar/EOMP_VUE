@@ -160,4 +160,12 @@ footer {
   
 }
 
+@media screen and (max-width: 700px){
+  svg{
+    width: 40px;
+    height: 40px;
+  }
+  
+}
+
 </style>

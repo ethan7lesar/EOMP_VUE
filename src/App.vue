@@ -22,4 +22,5 @@ export default {
   text-align: center;
   background-color: black;
 }
+
 </style>
