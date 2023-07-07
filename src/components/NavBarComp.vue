@@ -129,7 +129,7 @@
     </div>
   </nav>
   <div
-    class="offcanvas offcanvas-end bg-black "
+    class="offcanvas offcanvas-end bg-black"
     tabindex="-1"
     id="offcanvasRight"
     aria-labelledby="offcanvasRightLabel"
@@ -244,10 +244,20 @@
       <ul>
         <li><router-link to="/" class="nav-link">Home</router-link></li>
         <li><router-link to="/about" class="nav-link">About/</router-link></li>
-        <li><router-link to="/resume" class="nav-link">Resume/</router-link></li>
-        <li><router-link to="/testimonials" class="nav-link">Testimonials/</router-link></li>
-        <li><router-link to="/projects" class="nav-link">Projects/</router-link></li>
-        <li><router-link to="/contact" class="nav-link">Contact/</router-link></li>
+        <li>
+          <router-link to="/resume" class="nav-link">Resume/</router-link>
+        </li>
+        <li>
+          <router-link to="/testimonials" class="nav-link"
+            >Testimonials/</router-link
+          >
+        </li>
+        <li>
+          <router-link to="/projects" class="nav-link">Projects/</router-link>
+        </li>
+        <li>
+          <router-link to="/contact" class="nav-link">Contact/</router-link>
+        </li>
       </ul>
     </div>
   </div>
@@ -256,14 +266,19 @@
 export default {};
 </script>
 <style scoped>
-nav{
-  background-color: #5CB85C;
-
+.router-link-active {
+  background-color: #5cb85c !important;
+  color: black !important;
+  transition: 0.2s !important;
 }
-ul{
+
+nav {
+  background-color: #5cb85c;
+}
+ul {
   list-style: none;
 }
-.nav-link{
+.nav-link {
   text-decoration: none;
   font-size: 40px;
   color: white;
@@ -272,37 +287,30 @@ ul{
   width: 50%;
   text-align: center;
   border: 0;
-  color:white;
+  color: white;
   transition: 0.2s;
 }
 
-
-button{
+button {
   background-color: transparent;
   border: 0;
 }
 
-#offcanvasRight.offcanvas.offcanvas-end.bg-black{
-  border: 10px solid #5CB85C;
+#offcanvasRight.offcanvas.offcanvas-end.bg-black {
+  border: 10px solid #5cb85c;
   border-radius: 30px;
-  width: 50% ;
- 
+  width: 50%;
 }
 
-.nav-link:hover{
-  color: #5CB85C;
+.nav-link:hover {
+  color: #5cb85c;
   transition: 0.2s;
-  border-bottom: 5px solid #5CB85C;
+  border-bottom: 5px solid #5cb85c;
 }
 
 @media screen and (max-width: 300px) {
-
-  #offcanvasRight.offcanvas.offcanvas-end.bg-black{
-    width: 100% ;
+  #offcanvasRight.offcanvas.offcanvas-end.bg-black {
+    width: 100%;
   }
 }
-
-
-
-
 </style>
