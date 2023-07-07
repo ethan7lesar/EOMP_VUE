@@ -1,5 +1,5 @@
 <template>
-  <h1 class="aboutme">About Me</h1>
+  <h1 class="aboutme">About Me:</h1>
   <div class="about ms-5 h-100 mb-5">
     <div class="content">
       <h2>Bio:</h2>
