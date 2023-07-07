@@ -7,7 +7,9 @@
     <XpCardComp v-for="experience of experiences" :key="experience.id" :experience="experience"/>
   </div>
   <div v-else>
-    loading...
+    <div class="spinner-border" style="width: 200px; height: 200px; color:#5cb85c" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
   </div>
   <h1>Skills:</h1>
     <SkillBarComp/>

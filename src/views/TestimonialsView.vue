@@ -7,7 +7,9 @@
       :testimonial="testimonial"
     />
   </div>
-  <div v-else>loading...</div>
+  <div v-else><div class="spinner-border" style="width: 200px; height: 200px; color:#5cb85c" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div></div>
 </template>
 
 <script>
