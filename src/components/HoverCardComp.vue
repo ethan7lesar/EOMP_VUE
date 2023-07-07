@@ -21,6 +21,9 @@ export default {
 </script>
 
 <style scoped>
+p{
+  font-size: 18px !important;
+}
 .center {
   display: flex;
   justify-content: center;
