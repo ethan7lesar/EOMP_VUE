@@ -71,6 +71,7 @@ a:hover {
 .Photo {
   border: #5cb85c 5px solid;
   border-radius: 62px;
+  background-color: #5cb85c;
 }
 h6 {
   margin-top: 10px;

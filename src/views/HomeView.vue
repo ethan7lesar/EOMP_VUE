@@ -131,6 +131,7 @@
 img {
   border: 5px solid #5cb85c;
   border-radius: 60px;
+  background-color: #5cb85c;
   position: relative;
   -webkit-animation: tilt-in-fwd-tr 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
